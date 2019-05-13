@@ -19,6 +19,7 @@ body {
 
 h1 h2 h3 p{
        margin-bottom: 20px;
+       color: black;
   }
 
 p:last-child {margin-bottom: 0;
@@ -26,7 +27,7 @@ p:last-child {margin-bottom: 0;
 
 h1 h2 h3 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #4aaaa5;
   }
 
@@ -35,10 +36,12 @@ h1 {
     line-height: 49px;
     border-bottom: 3px solid #ddd;
     padding-bottom: 20px;
+    color: black;
   }  
 
 h2 h3 {
-    font-size: 22px;
+    font-size: 20px;
+    color: black;
 }
 
 #masthead {
@@ -70,13 +73,13 @@ nav {
   }
 
 nav a {
-    color: #999;
+    color: black;
     text-decoration: none;
     margin-left: 15px;
     display: inline-block;
     border-left: 1px solid #efefef;
     padding-left: 15px;
-    line-height: 18px;
+    line-height: 20px;
   }
 
 nav a first-child {
@@ -92,10 +95,29 @@ nav a first-child {
   background: #fff;
   padding: 30px;  
   margin: 0 0 40px 0;
+  width: 55%;
+  float: left;
+  border: 1px solid #ddd;
+  height: 600px;
+}
+.main-section2 {
+  background: #fff;
+  padding: 30px;  
+  margin: 0 0 40px 0;
   width: 100%;
   max-width: 650%;
   float: left;
   border: 1px solid #ddd;
+  height: 600px;
+}
+#contact-info {
+  background: #fff;
+  padding: 30px;  
+  margin: 0 0 20px 5px;
+  width: 40%;
+  float: right;
+  border: 1px solid #ddd;
+  height: 200px;
 }
 
 .auth-image {
@@ -108,6 +130,7 @@ nav a first-child {
 
 footer {
   background: #666;
+  height: 100px;
   color: #fff;
   padding: 10px 0;
   clear: both;
