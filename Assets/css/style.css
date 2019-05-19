@@ -8,9 +8,19 @@ body {
     font-size: 18px;
     line-height: 34px;
     color:#777;
+    background-image: url("http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
   }
 
-.container {
+ .container {
       width: 100%;
       max-width: 960px;
       margin: 0 auto;
@@ -202,6 +212,21 @@ input[type=submit] {
   font-size: 18px;
   padding: 10px 30px;
   cursor: pointer;
+}
+.github-btn {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  float: left;
+  margin-right: 20px;
+  
+}
+.linkedin-image {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  float: left;
+  margin-right: 30px;
 }
 @media only screen and (max-width: 600px) {
   .container {
